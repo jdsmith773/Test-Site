@@ -12,4 +12,3 @@ VALUES ('$first', '$last', '$uid', '$pwd')"
 $result =mysqli_query($conn, $sql);
 
 header("Location: index.php");
- ?>
